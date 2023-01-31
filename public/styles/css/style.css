@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(221, 209, 233);
+}
+
+.bg1 {
+  width: 100%;
+  color: #fff;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.57'%3E%3Cpolygon fill='%23130722' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23270d44' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%233a1466' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%234e1a88' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%236121AA' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.slider-part {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 85vh;
+  filter: brightness(40%);
+}
+
+.slide-title {
+  font-size: 2.5rem;
+}
+
+.slide-subtitle {
+  font-size: 1.6rem;
+}
+
+.service-heading,
+.contactform-heading,
+.banner1-heading,
+.banner2-heading {
+  font-size: 3.5rem;
+}
+
+.banner2-img {
+  max-height: 25rem;
+}
+
+.service-icon {
+  font-size: 9rem;
+}
+
+.service-title {
+  font-size: 2.5rem;
+  text-align: center;
+}

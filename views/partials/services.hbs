@@ -1,0 +1,30 @@
+<section class="my-5">
+  <h2 class="text-center service-heading">Our Services</h2>
+  <div class="container my-5">
+    <div class="row gy-5">
+      {{#each services}}
+        <div class="col-md-4">
+          <div class="card">
+            <div class="text-center service-icon">
+              <i class="fa-solid {{this.icon}}"></i>
+            </div>
+            <div class="card-body px-5 pb-5">
+              <h3 class="card-title service-title"> {{this.title}}</h3>
+              <p class="card-text">{{this.text}}</p>
+              <div class="container d-flex justify-content-between">
+                <a
+                  href="{{this.leftLink}}"
+                  class="card-link"
+                >{{this.leftButton}}</a>
+                <a
+                  href="{{this.rightLink}}"
+                  class="card-link"
+                >{{this.rightButton}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

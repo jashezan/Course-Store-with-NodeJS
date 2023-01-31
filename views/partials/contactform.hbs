@@ -1,0 +1,38 @@
+<section class="mb-5 bg1 py-5">
+  <div class="container">
+    <h2 class="text-center contactform-heading">Contact Form</h2>
+    <form action="/process-contact-form" method="post">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input
+          name="name"
+          type="text"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="John Doe"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">Email address</label>
+        <input
+          name="email"
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput2"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example
+          textarea</label>
+        <textarea
+          name="query"
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="10"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+    </form>
+  </div>
+</section>
